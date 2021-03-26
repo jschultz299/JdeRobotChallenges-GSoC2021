@@ -1,0 +1,1 @@
+{"main": [{"NLINS": 10, "NCOLS": 10, "N_STEPS": 40}], "patterns": [{"name": "Glider", "pattern": [[0, 0, 1], [1, 0, 1], [0, 1, 1]], "place_auto": false, "add": true, "where": [0, 0]}]}
