@@ -2,12 +2,15 @@
 
 Labyrinth::Labyrinth()
 {
-	env[M][N] = { 0 };
+	env[M][N] = {0};
 	// Read File
 	std::ifstream file;
 	file.open ("input.txt", std::ifstream::in);
 
-	if (!file.is_open()) cout << "Unable to open File";
+	if (!file.is_open()) {
+		cout << "Error: Failed to open file.";
+	}
+
 	for (int i=0; i != M; ++i) {
 		for (int j=0; j != N; ++j) {
 			file >> env[i][j];
